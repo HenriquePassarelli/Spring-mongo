@@ -10,7 +10,6 @@ public class ApiLanguagesApplication {
 
         SpringApplication.run(ApiLanguagesApplication.class, args);
 
-
     }
 
 }

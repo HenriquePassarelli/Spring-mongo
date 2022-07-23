@@ -10,12 +10,13 @@ public class Language {
     private String id;
     private String title;
     private String image;
-    private String rank;
+    private String ranking;
 
-    public Language(String title, String image, String rank) {
+    public Language(String id, String title, String image, String ranking) {
+        this.id = id;
         this.title = title;
         this.image = image;
-        this.rank = rank;
+        this.ranking = ranking;
     }
 
     public String getTitle() {
@@ -26,8 +27,8 @@ public class Language {
         return image;
     }
 
-    public String getRank() {
-        return rank;
+    public String getRanking() {
+        return ranking;
     }
 
     public String getId() {
